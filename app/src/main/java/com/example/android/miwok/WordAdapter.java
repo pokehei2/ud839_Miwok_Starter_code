@@ -54,7 +54,7 @@ public class WordAdapter extends ArrayAdapter<Word>  {
         // Check if an image is provided for this word or not
         if (currentWord.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            defaultImageView.setImageResource(currentWord.getImageResourceID());
+            defaultImageView.setImageResource(currentWord.getImageResourceId());
             // Make sure the view is visible
             defaultImageView.setVisibility(View.VISIBLE);
         } else {
